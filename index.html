@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت ساده</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">درباره ما</a></li>
+                <li><a href="#categories">دسته بندی محصولات</a></li>
+                <li><a href="#contact">تماس با ما</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>به سایت ما خوش آمدید</h1>
+        <p>ما بهترین خدمات را به شما ارائه می‌دهیم</p>
+        <a href="#contact" class="btn">تماس با ما</a>
+    </section>
+
+    <section id="about">
+        <h2>درباره ما</h2>
+        <p>ما تیمی متخصص هستیم که در زمینه خدمات آنلاین فعالیت می‌کنیم.</p>
+    </section>
+
+    <section id="categories">
+    <h2>دسته‌بندی محصولات</h2>
+    <div class="category">
+        <a href="#food">
+            <img src="images/food.jpg" alt="مواد غذایی" />
+            <h3>مواد غذایی</h3>
+        </a>
+    </div>
+    <div class="category">
+        <a href="#health">
+            <img src="images/health.jpg" alt="مواد بهداشتی" />
+            <h3>مواد بهداشتی</h3>
+        </a>
+    </div>
+    <div class="category">
+        <a href="#beauty">
+            <img src="images/beauty.jpg" alt="محصولات آرایشی" />
+            <h3>محصولات آرایشی</h3>
+        </a>
+    </div>
+</section>
+
+    <section id="contact">
+        <h2>تماس با ما</h2>
+        <form>
+            <label for="name">نام شما:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">ایمیل شما:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">پیام شما:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">ارسال پیام</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>تمامی حقوق محفوظ است &copy; 2024</p>
+    </footer>
+
+</body>
+</html>
